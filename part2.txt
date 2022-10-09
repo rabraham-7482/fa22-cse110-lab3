@@ -5,7 +5,7 @@ Fill in the passphrases here.
 3. HTML rocks
 4. JavaScriptRules
 5. SvelteBeatsReact
-6.
+6. ThisIsJS
 7. YouFoundMe
 8. coolcoolcool
 9. 2020sucked
