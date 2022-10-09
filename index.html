@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8"/>
     <title>Sample Meeting Minutes</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   </head>
@@ -21,7 +21,7 @@
         <hr>
         <section>
             <h2>Schedule</h2>
-            <span>
+            <div>
                 <p>
                     <ol>
                         <li>Review minutes from last meeting</li>
@@ -30,7 +30,7 @@
                         <li>Come up with things to talk about in the next meeeting on <strong>Monday</strong></li>
                     </ol>
                 </p>
-            </span>
+            </div>
         </section>
         <hr>
         <section>
@@ -42,17 +42,23 @@
                     <li>New members <i>may</i> join project soon</li>
                     <li>this is <em>italics with <em>even more italics</em></em></li>
                     <li>use <a href="https://www.google.com/">google</a> as a resource</li>
-                    <li>What to aim for in meetings:</li>
-                    <img src="images/scrum-retrospective.png" alt="image describing how a scrum meeiting should go"/>
-                    <li>Attatch audio messages to notes in the future as so:</li>
-                    <audio controls preload="auto">
-                        <source src="audio/samplevoicememo.mp3">
-                    </audio>
-                    <li>Attatch videos to notes in the future as so:</li>
-                    <video controls preload="auto" width="100" height="200">
-                        <source src="video/samplevideo.MOV">
-                    </video>
                 </ul>
+                <span>
+                    What to aim for in meetings:
+                </span>
+                <img src="images/scrum-retrospective.png" alt="image describing how a scrum meeiting should go"/>
+                <span>
+                    Attatch aufio messages to notes in the future as so:
+                </span>
+                <audio controls preload="auto">
+                    <source src="audio/samplevoicememo.mp3">
+                </audio>
+                <span>
+                    Attatch videos to notees in thee future as so:
+                </span>
+                <video controls preload="auto" width="100" height="200">
+                    <source src="video/samplevideo.MOV">
+                </video>
             </div>
         </section>
         <hr>
@@ -99,7 +105,7 @@
                         <option value="3+ (please specify)">
                     </datalist>
                     <label for="work_type">How do you like to work?</label><br>
-                    <select name="work_type">
+                    <select name="work_type" id="work_type">
                         <option value="remote">remote</option>
                         <option value="at office">at office</option>
                     </select><br>
@@ -118,6 +124,6 @@
             <li><a href="https://www.bing.com/">Bing</a></li>
         </ul>
     </nav>
+    <footer>© 2022 Author: Rita Abraham</footer>
   </body>
-  <footer>© 2022 Author: Rita Abraham</footer>
 </html>
