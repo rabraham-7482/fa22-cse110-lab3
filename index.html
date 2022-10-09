@@ -49,14 +49,14 @@
                     <li>
                         Attatch audio messages to notes in the future as so:
                         <audio>
-                            <source src="audio/samplevoicememo.mp3" type="audio/mp3">
+                            <source src="audio/samplevoicememo.mp3" type="audio/mpeg">
                              This browser does not support the audio element.
                         </audio>
                     </li>
                     <li>
                         Attatch videos to notes in the future as so:
                         <video>
-                            <source src="video/samplevideo.MOV" type="video/mov">
+                            <source src="video/samplevideo.MOV">
                             This browser does not support the video element.
                         </video>
                     </li>
@@ -67,7 +67,7 @@
         <section>
             <h2>Next Meeting</h2>
             <p>
-                There is nothing specific to talk about next meeting. We will again go oveer the progress of each team member and help unblock if neceessary.
+                There is nothing specific to talk about next meeting. We will again go over the progress of each team member and help unblock if neceessary.
             </p>
         </section>
         <hr>
@@ -76,6 +76,8 @@
             <details>
                 <summary>August Meeting</summary>
                 <p>Attatch this meeting's meetings soon.</p>
+            </details>
+            <details>
                 <summary>September Meeting</summary>
                 <p>Attatch this meeting's meetings soon.</p>
             </details>
@@ -93,23 +95,23 @@
                     <input type="radio" id="website" name="hear_about_us" value="Website">
                     <label for="website">Website</label><br>
                     <input type="radio" id="other" name="hear_about_us" value="Other">
-                    <label for="other">Other</label>
-                    <label for="start_date">When can you start?</label>
+                    <label for="other">Other</label><br>
+                    <label for="start_date">When can you start?</label><br>
                     <input type="date" id = "start_date" name = "start_date">
-                    <label for="experience">How many years of experience do you have?</label>
+                    <label for="experience">How many years of experience do you have?</label><br>
                     <input list="years" name="experience" id="experience">
                     <datalist id="years">
                         <option value="0">
                         <option value="1">
                         <option value="2">
-                        <option value="3+ (if more than 3 please specify)">
+                        <option value="3+ (please specify)">
                     </datalist>
-                    <label for="work_type">How do you like to work?</label>
+                    <label for="work_type">How do you like to work?</label><br>
                     <select name="work_type">
                         <option value="remote">
                         <option value="at office">
                     </select>
-                    <label for="anything_else">Anything else?</label>
+                    <label for="anything_else">Anything else?</label><br>
                     <textarea id="anything_else" name="anything_else">Is there anything else you would like to mention?</textarea>
                 </fieldset>
                 <button type="button">Submit</button>
