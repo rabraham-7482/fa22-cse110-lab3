@@ -1,0 +1,9 @@
+/*Apply to all h2 headers*/
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 3px 3px 3px 3px;
+    font-family: cursive;
+}
