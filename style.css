@@ -68,12 +68,12 @@ summary,ol{
     color: rgb(41, 55, 41);
 }
 /*Apply to p element under details element*/
-details + p{
+summary + p{
     width: 10em;
     color: rgb(214, 133, 133);
 }
 /*Apply to p element under div element*/
-div ~ p{
+img ~ span{
     color: rgb(182, 102, 182);
 }
 /*Apply to bigger and also_bigger class*/
