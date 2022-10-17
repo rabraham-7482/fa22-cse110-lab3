@@ -19,7 +19,6 @@ h2 {
     margin-left: 1px;
     margin-right: 1px;
     padding: 3px 3px 3px 3px;
-    font-family: dancing-script;
 }
 /*Apply to footers*/
 footer{
@@ -33,6 +32,7 @@ h1{
 /*Apply to all h2/h3 headers*/
 h2, h3 {
     color: rgb(20, 14, 99);
+    font-family: dancing-script;
 }
 /*Apply to project_date class*/
 .project_date{
