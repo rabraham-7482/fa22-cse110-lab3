@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'dancing-script';
+    src: url('./DancingScript-VariableFont_wght.ttf');
+}
+/*Apply to screens of at most 600px*/
+@media only screen and (max-width: 600px) {
+    header{
+        color: red;
+    }
+}
+/*Apply to all elements*/
+*{
+    background-color: rgb(182, 177, 177);
+}
 /*Apply to all h2 headers*/
 h2 {
     margin-top: 5px;
@@ -5,5 +19,128 @@ h2 {
     margin-left: 1px;
     margin-right: 1px;
     padding: 3px 3px 3px 3px;
-    font-family: cursive;
+    font-family: dancing-script;
+}
+/*Apply to footers*/
+footer{
+    color: gray
+}
+/*Apply to all h1 headers*/
+h1{
+    background-color: #bab6b6;
+    text-align: center;
+}
+/*Apply to all h2/h3 headers*/
+h2, h3 {
+    color: rgb(20, 14, 99);
+}
+/*Apply to project_date class*/
+.project_date{
+    background-color: yellow;
+}
+/*Apply to prev_meeting class*/
+.prev_meeting{
+    color: rgb(117, 56, 56);
+    font-size: 20px;
+}
+/*Apply to google link under navigate to */
+nav > ul > li > a[href="https://www.google.com/"]{
+    font-weight: bold;
+    font-size: 15pt;
+}
+/*Apply hover to a class*/
+a:hover{
+    background-color: rgb(160, 204, 244);
+}
+a:active{
+    background-color: blue;
+}
+/*Apply to google link under navigate to */
+section p{
+    color: rgb(68, 72, 68);
+}
+/*Apply to label element*/
+label{
+    color: rgb(68, 72, 68);
+}
+/*Apply to summary and ol element*/
+summary,ol{
+    color: rgb(41, 55, 41);
+}
+/*Apply to p element under details element*/
+details + p{
+    width: 10em;
+    color: rgb(214, 133, 133);
+}
+/*Apply to p element under div element*/
+div ~ p{
+    color: rgb(182, 102, 182);
+}
+/*Apply to bigger and also_bigger class*/
+.bigger, .also_bigger{
+    font-size: larger;
+}
+/*Apply to li element*/
+li{
+    font-size: 1pc;
+}
+/*Apply to notes_list class*/
+.notes_list{
+    margin: 10 10 10 10;
+    display: block;
+    width: 20vw;
+    height: 20vh;
+}
+/*Apply to ol element*/
+ol{
+    margin: auto;
+    display: inline-block;
+    max-width: 500px;
+    max-height: 500px;
+}
+/*Apply to header element*/
+header{
+    border-style: solid;
+    border-color: rgba(96, 93, 93, 0.941);
+    border-width: 10px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+/*Apply to b and strong element*/
+b,strong {
+    text-decoration: underline dotted;
+}
+/*Apply to img element*/
+img{
+    width: 50%;
+    height: 50%;
+}
+/*Apply to video element*/
+video{
+    position: static;
+}
+/*Apply to audio element*/
+audio{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+/*Apply to box class*/
+.box{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+/*Apply to grid-example class*/
+.grid-example{
+    display: grid;
+    grid-template-rows: 20px 20px;
+    grid-template-columns: 20px 50px;
+    column-gap: 50px;
+    row-gap: 50px;
 }
